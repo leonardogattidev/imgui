@@ -20,7 +20,14 @@ pub fn build(b: *std.Build) void {
     imgui_mod.link_libcpp = true;
 
     imgui_lib.installHeadersDirectory(b.path("."), include_name, .{
-        .include_extensions = &.{"imgui.h"},
+        .include_extensions = &.{
+            "imgui.h",
+            "imconfig.h",
+            "imgui_internal.h",
+            "imstb_rectpack.h",
+            "imstb_textedit.h",
+            "imstb_truetype.h",
+        },
     });
     b.installArtifact(imgui_lib);
 }
