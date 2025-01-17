@@ -5,13 +5,12 @@
     .paths = .{
         "build.zig",
         "build.zig.zon",
+        "imgui.h",
         "imgui.cpp",
         "imgui_demo.cpp",
         "imgui_tables.cpp",
         "imgui_widgets.cpp",
         "imgui_draw.cpp",
-        "*.cpp",
-        "*.h",
         // For example...
         "LICENSE.txt",
         //"README.md",
