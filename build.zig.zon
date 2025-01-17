@@ -1,0 +1,15 @@
+.{
+    .name = "imgui",
+    .version = "0.0.0",
+    .dependencies = .{},
+    .paths = .{
+        "*.cpp",
+        "*.h",
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        "LICENSE.txt",
+        //"README.md",
+    },
+}
