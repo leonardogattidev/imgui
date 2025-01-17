@@ -3,11 +3,15 @@
     .version = "0.0.0",
     .dependencies = .{},
     .paths = .{
-        "*.cpp",
-        "*.h",
         "build.zig",
         "build.zig.zon",
-        "src",
+        "imgui.cpp",
+        "imgui_demo.cpp",
+        "imgui_tables.cpp",
+        "imgui_widgets.cpp",
+        "imgui_draw.cpp",
+        "*.cpp",
+        "*.h",
         // For example...
         "LICENSE.txt",
         //"README.md",
